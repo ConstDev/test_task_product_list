@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: DodgerBlue;
+}
+.product_item {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+.item_point {
+    margin-bottom: 5%;
+}
+.item_image {
+    width: 100%;
+    height: auto;
+}
+/* Class for picked item */
+.selected_item {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+.item_title {
+    font-weight: bold;
+    text-decoration: solid;
+}
+
